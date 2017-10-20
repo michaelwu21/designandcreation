@@ -264,5 +264,11 @@
 			}
 
 	});
+	$(".scrolldown").click(function(){
+		$('html, body').animate({
+    		scrollTop: ($('.scrolldown').first().offset().top) + 300
+		},700);
+	});
+
 
 })(jQuery);
