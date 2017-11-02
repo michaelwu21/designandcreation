@@ -4484,3 +4484,9 @@
 	a:hover{
 		cursor:pointer;
 	}
+
+	.no-zoom:hover{
+		transform: none!important;
+		-webkit-transform: none!important;
+		cursor:default!important;
+	}

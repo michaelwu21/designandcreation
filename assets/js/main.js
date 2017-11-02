@@ -266,7 +266,7 @@
 	});
 	$(".scrolldown").click(function(){
 		$('html, body').animate({
-    		scrollTop: ($('.scrolldown').first().offset().top) + 300
+    		scrollTop: ($('.scrolldown').first().offset().top) + 250
 		},700);
 	});
 
