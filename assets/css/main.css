@@ -4488,10 +4488,6 @@
 	.no-zoom:hover{
 		cursor:default!important;
 	}
-	.no-zoom.image:hover img {
-		transform: none!important;
-		-webkit-transform: none!important;
-	}
 	.past_project {
 		width: 35%;
 	}
